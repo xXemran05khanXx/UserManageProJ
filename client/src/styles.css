@@ -1,0 +1,18 @@
+:root{--accent:#2b6cb0;--muted:#666}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f7f8fb}
+.app header{background:#fff;padding:12px 20px;border-bottom:1px solid #e6e9ef;display:flex;align-items:center;justify-content:space-between}
+.app header h1{margin:0;font-size:20px}
+.app header nav a{margin-left:12px;text-decoration:none;color:var(--accent)}
+.app main{padding:20px}
+.search{display:flex;gap:8px;margin-bottom:12px}
+.search input{flex:1;padding:8px}
+.user-table{width:100%;border-collapse:collapse;background:#fff}
+.user-table th,.user-table td{padding:8px;border:1px solid #eee;text-align:left}
+.user-table th{background:#fafafa}
+.actions{margin-bottom:12px}
+.form-container{max-width:600px;background:#fff;padding:16px;border:1px solid #eee}
+.form-container label{display:block;margin-top:8px}
+.form-container input,.form-container textarea{width:100%;padding:8px;border:1px solid #ddd}
+.form-actions{margin-top:12px}
+.error{color:#b00020;margin-top:4px;font-size:13px}
+button{cursor:pointer}
